@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMS Protector - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>GMS Protector</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter Username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <button id="signupBtn" class="btn signup">Sign Up</button>
+            <button id="fakePowerBtn" class="btn power">Fake Power Off</button>
+        </div>
+    </div>
+
+    <div id="theme-toggle">
+        <label>Dark Mode:</label>
+        <input type="checkbox" id="theme-switch">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
